@@ -1,0 +1,53 @@
+
+ssh-keygen command is used to generate public and private keys public key is shared in github settings -> then ssh and gpg keys -> nes ssh keys then give title and paste the content of id_rsa.pub key
+
+In windows keys will be in the path C:\Users\Saif\.ssh
+
+using ssh -T git@github.com we can check the authentication
+
+
+
+
+
+
+
+  ssh -T git@github.com
+  ls
+  git status
+  git add .
+  git status
+  git commit -m "git basic commands"
+  git log
+  git log
+  git init
+  git status
+  git log
+  git configure
+  git --help
+  git config -list
+  git config --list
+  git config --global --list
+  git log
+  git status
+  clear
+  git log
+  clear
+  git init
+  git add .
+  git status
+  git commit -m "git basic commands"
+  git config --global user.email "mohdsaifdev@gmail.com"
+  git config --global user.name "saif"
+  git config --global --list
+  git config --list
+  git remote add origin git@github.com:aaiwa/adv-dev.git
+  git branch -M main
+  git push -u origin main
+  git log
+  git status
+  git commit -m "git basic commands"
+  git push -u origin main
+  git ls-files
+  git log
+  git status
+  history
