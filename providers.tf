@@ -28,3 +28,12 @@ provider "aws" {
     secret_key = var.awsl2
  
 }
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-bucket-devops"
+    key = "tf-current-state-file"
+    region = "ap-south-1"
+    
+  }
+}
